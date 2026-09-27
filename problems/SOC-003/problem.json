@@ -1,0 +1,27 @@
+{
+  "id": "SOC-003",
+  "domain": "social-science",
+  "title": "Information cascades 的 dynamic communities",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "如何辨識information cascade中真正穩定/演化的communities，而不把snapshot clustering noise當作社群形成或coordination。",
+  "known_result": "2026 temporal-graph工作以TGN、clustering與Markov transitions追蹤不同類型news cascades，展示dynamic community modelling方法。",
+  "open_gap": "community identity across time、platform API sampling、label validity與coordinated-vs-organic interpretation。",
+  "first_task": "在synthetic dynamic stochastic block model有known communities下比較static vs temporal clustering，再用公開小cascade測robustness。",
+  "evaluator": "ARI/NMI、community survival、boundary stability、sampling sensitivity。",
+  "validation_limits": "structural persistence不自動等於coordination或意圖；內容label來源要獨立核查。",
+  "completion_criterion": "在held-out temporal networks恢復known/externally validated community transitions並有uncertainty。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "temporal graph fake news cascades communities 2026"
+  ],
+  "sources": [
+    {
+      "title": "Tracking evolving communities in fake news cascades using temporal graphs",
+      "url": "https://www.nature.com/articles/s41598-026-35175-4",
+      "kind": "primary",
+      "supports": "temporal communities in information cascades"
+    }
+  ]
+}

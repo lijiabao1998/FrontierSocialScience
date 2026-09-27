@@ -1,0 +1,27 @@
+{
+  "id": "SOC-001",
+  "domain": "social-science",
+  "title": "Community fact-checking 的因果效果與時機",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "估計community fact-check notes對misleading-post diffusion、deletion與engagement的因果效果，尤其處理notes顯示太晚、帳號/內容異質性與平台變化。",
+  "known_result": "2026 Nature Communications對X Community Notes做大型DiD研究，報告note顯示後傳播下降，但整體cumulative impact受顯示時機限制；不同內容/帳號效果亦有異質性。",
+  "open_gap": "parallel trends、selection into notes、timing endogeneity、platform algorithm changes與cross-platform transport。",
+  "first_task": "用公開/合成cascade panel重現staggered timing DiD，做pretrend/event-study與fake treatment time placebo。",
+  "evaluator": "dynamic treatment effects、pretrend、robust SE、timing sensitivity、cumulative vs post-treatment effects。",
+  "validation_limits": "單一平台/時期估計不能直接外推所有內容；政治內容只是研究中的一個subgroup，不作價值評斷。",
+  "completion_criterion": "在不同time windows/platform-like datasets重現方向與時機機制，並通過識別placebo。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "community based fact checking causal effect 2026"
+  ],
+  "sources": [
+    {
+      "title": "Community-based fact-checking reduces the spread of misleading posts on X (formerly Twitter)",
+      "url": "https://www.nature.com/articles/s41467-026-72597-0",
+      "kind": "primary",
+      "supports": "Community Notes與misleading-post diffusion的quasi-experimental研究"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "SOC-002",
+  "domain": "social-science",
+  "title": "Misinformation containment 的跨網路可遷移性",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "在不同modularity、density與degree distributions的network上，哪些structural containment heuristics可transfer，何時ranking會反轉。",
+  "known_result": "2026 Scientific Reports跨Facebook、Twitter、Twitch與collaboration networks比較centrality heuristics，發現最佳方法高度structure-dependent。",
+  "open_gap": "真實cascade process與Independent Cascade model的差距、unknown source model、intervention timing與network observation error。",
+  "first_task": "生成modular/dense/sparse synthetic networks，重現heuristic ranking inversion；加入edge missingness。",
+  "evaluator": "containment rate、rank stability、timing sensitivity、network-property interaction。",
+  "validation_limits": "simulation中的node immunization不等於現實平台介入；不提供政治targeting。",
+  "completion_criterion": "由network summary可預測heuristic transfer/失效，並在held-out network驗證。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "misinformation containment cross network centrality 2026"
+  ],
+  "sources": [
+    {
+      "title": "Benchmarking centrality heuristics for misinformation containment: a structure-dependent cross-network study",
+      "url": "https://www.nature.com/articles/s41598-026-67139-z",
+      "kind": "primary",
+      "supports": "containment heuristic的cross-network structure dependence"
+    }
+  ]
+}

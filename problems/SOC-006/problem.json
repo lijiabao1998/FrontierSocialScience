@@ -1,0 +1,27 @@
+{
+  "id": "SOC-006",
+  "domain": "social-science",
+  "title": "Migrant adaptation correlates 的跨情境 robustness",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "辨識哪些social/contextual correlates在不同migrant groups、receiving societies與adaptation outcomes中穩定，並區分correlation與causal support。",
+  "known_result": "2025 Nature Communications preregistered meta-analysis整合1114 primary studies與5066 effects，發現stressors與social resources是較穩定correlates，但論文本身也指出因果仍需longitudinal/experimental研究。",
+  "open_gap": "publication bias、construct heterogeneity、cross-sectional dominance與context moderators。",
+  "first_task": "重現meta-analysis的一個公開summary-level moderator calculation；做leave-one-context-out和small-study sensitivity。",
+  "evaluator": "heterogeneity、prediction interval、publication-bias sensitivity、context holdout。",
+  "validation_limits": "meta-analytic association仍非因果；不得將群體結果套到單一移民。",
+  "completion_criterion": "後續longitudinal/independent meta evidence能重現核心correlates並縮小context moderators。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "migrant adaptation meta analysis social contextual 2025 2026"
+  ],
+  "sources": [
+    {
+      "title": "A Meta-Analysis of Social and Contextual Correlates of Migrant Adaptation to Living in Receiving Societies",
+      "url": "https://www.nature.com/articles/s41467-025-67468-z",
+      "kind": "primary",
+      "supports": "跨研究migrant adaptation correlates與異質性"
+    }
+  ]
+}

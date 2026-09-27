@@ -1,0 +1,27 @@
+{
+  "id": "SOC-008",
+  "domain": "social-science",
+  "title": "Observational social science 的 causal-claim validity",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "可否可靠辨識paper中的design與language是否支持其因果claim，量化association→causal overreach並找到可改善的reporting guardrails。",
+  "known_result": "2026 Nature Human Behaviour直接量化social science中的overreaching causal claims，指出cross-sectional designs通常不足以支持直接causal language。",
+  "open_gap": "discipline-specific conventions、implicit causal wording、design extraction errors與human disagreement。",
+  "first_task": "建小型標註集：design、estimand、claim strength三欄，雙盲人工標註後測rule-based/LLM classifier。",
+  "evaluator": "inter-rater reliability、precision/recall by discipline、false accusations、calibration。",
+  "validation_limits": "自動分類錯誤可能不公平指控作者；repo只評方法與文字證據，不評政治立場。",
+  "completion_criterion": "跨journals/disciplines有高precision的overreach detection，且human reviewers一致性明確。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "overreaching causal claims social science 2026"
+  ],
+  "sources": [
+    {
+      "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
+      "url": "https://www.nature.com/articles/s41562-026-02553-x",
+      "kind": "primary",
+      "supports": "social-science causal overclaim的2026量化研究"
+    }
+  ]
+}

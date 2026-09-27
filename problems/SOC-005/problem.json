@@ -1,0 +1,27 @@
+{
+  "id": "SOC-005",
+  "domain": "social-science",
+  "title": "Migrants與local residents的 reciprocal acculturation dynamics",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "研究migration-related demands下migrants與local residents的心理反應如何相互影響，區分simultaneous correlation與reciprocal dynamics。",
+  "known_result": "2026 Nature Reviews Psychology提出雙向互動框架，強調兩群體responses互相塑造acculturation context。",
+  "open_gap": "longitudinal directionality、context selection、measurement invariance與national/context heterogeneity。",
+  "first_task": "以合成cross-lagged data先測model identification，再找公開longitudinal summary/data可用性；不以cross-sectional直接做因果。",
+  "evaluator": "lagged predictive fit、sensitivity to stable confounding、measurement invariance。",
+  "validation_limits": "group-level平均不適用個人；心理construct不等於政治立場。",
+  "completion_criterion": "在多wave資料中雙向path對替代模型有增量支持，並跨contexts重現。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "migration psychological responses acculturation 2026"
+  ],
+  "sources": [
+    {
+      "title": "Migrants’ and local residents’ psychological responses to migration",
+      "url": "https://www.nature.com/articles/s44159-026-00576-9",
+      "kind": "review",
+      "supports": "雙向migration-related psychological dynamics與future directions"
+    }
+  ]
+}

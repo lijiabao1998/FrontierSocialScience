@@ -1,0 +1,33 @@
+{
+  "id": "SOC-010",
+  "domain": "social-science",
+  "title": "Platform intervention spillovers 與 cross-platform transport",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "同一資訊介入在不同platform architecture、ranking、network topology與user migration下能否產生相似效果，及是否把diffusion轉移到別的平台。",
+  "known_result": "2026 fact-checking與containment研究都顯示效果受timing、network structure與platform-specific dynamics影響。",
+  "open_gap": "cross-platform identity linkage、simultaneous interventions、algorithm changes與off-platform spillovers。",
+  "first_task": "在synthetic two-platform diffusion model固定相同content，改network/ranking/timing，測單平台介入的spillover。",
+  "evaluator": "total reach、cross-platform migration、intervention effect heterogeneity、false containment signal。",
+  "validation_limits": "simulation不是平台政策效果；不做政治targeting或特定群體說服。",
+  "completion_criterion": "在兩個獨立public datasets或預註冊cross-platform設計中估到可transport/不可transport邊界。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "platform intervention misinformation transportability 2026"
+  ],
+  "sources": [
+    {
+      "title": "Community-based fact-checking reduces the spread of misleading posts on X (formerly Twitter)",
+      "url": "https://www.nature.com/articles/s41467-026-72597-0",
+      "kind": "primary",
+      "supports": "timing-dependent platform intervention effect"
+    },
+    {
+      "title": "Benchmarking centrality heuristics for misinformation containment: a structure-dependent cross-network study",
+      "url": "https://www.nature.com/articles/s41598-026-67139-z",
+      "kind": "primary",
+      "supports": "network-structure dependent intervention ranking"
+    }
+  ]
+}

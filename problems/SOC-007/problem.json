@@ -1,0 +1,27 @@
+{
+  "id": "SOC-007",
+  "domain": "social-science",
+  "title": "Higher-order social networks 的測量與動力學",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "pairwise graph無法表示group-mediated interactions時，如何由真實higher-order data估hypergraph/simplicial dynamics並比較pairwise approximation loss。",
+  "known_result": "2026 Scientific Data A Blue Start提供39.7M accounts、2.4B pairwise follows與365.8K starter-pack groups，直接連接pairwise與higher-order social ties。",
+  "open_gap": "group membership semantics、selection into curated groups、temporal evolution與sampling/API bias。",
+  "first_task": "只用可公開合法的小sample/synthetic replica，比較pairwise projection vs hypergraph contagion/community outputs。",
+  "evaluator": "prediction error、information loss、higher-order interaction effect、sampling sensitivity。",
+  "validation_limits": "starter-pack共組不等於實際密切互動；不推斷個人政治/敏感屬性。",
+  "completion_criterion": "higher-order model對held-out group-mediated outcomes有可重現增益，且效果不由sampling artifact解釋。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "higher order social network dataset 2026 Blue Start"
+  ],
+  "sources": [
+    {
+      "title": "A Blue Start: A large-scale pairwise and higher-order social network dataset",
+      "url": "https://www.nature.com/articles/s41597-026-06920-1",
+      "kind": "data",
+      "supports": "pairwise + higher-order social network dataset"
+    }
+  ]
+}

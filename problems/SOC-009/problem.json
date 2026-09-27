@@ -1,0 +1,27 @@
+{
+  "id": "SOC-009",
+  "domain": "social-science",
+  "title": "Collective consensus formation 與 network topology",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "簡單/複雜contagion與network scalefreeness/clustering如何共同影響collective consensus dynamics，並區分模型現象與真實群體。",
+  "known_result": "2026 Scientific Reports在synthetic scale-free networks上研究linear-threshold與leader-follower models，發現特定條件下可支持complex contagion。",
+  "open_gap": "empirical validity、heterogeneous thresholds、adaptive networks與exogenous information。",
+  "first_task": "重現兩個toy models，再加入heterogeneous thresholds/network rewiring，檢查phase transition是否穩定。",
+  "evaluator": "consensus time/rate、critical threshold、seed sensitivity、finite-size scaling。",
+  "validation_limits": "synthetic consensus model不能直接解釋選舉或特定政治群體。",
+  "completion_criterion": "關鍵topology-contagion interaction在不同network generators與至少一個非政治empirical dataset中重現。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "social contagion consensus scale free networks 2026"
+  ],
+  "sources": [
+    {
+      "title": "Social contagion drives collective consensus formation on scale-free networks",
+      "url": "https://www.nature.com/articles/s41598-026-66142-8",
+      "kind": "primary",
+      "supports": "scale-free topology與simple/complex contagion consensus"
+    }
+  ]
+}

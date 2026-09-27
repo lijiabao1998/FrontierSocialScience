@@ -1,0 +1,27 @@
+{
+  "id": "SOC-004",
+  "domain": "social-science",
+  "title": "Migration flow estimation/forecasting under shocks",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "從長期bilateral migration estimates中學得可泛化patterns，同時捕捉conflict、environmental與policy shocks造成的rapid regime changes。",
+  "known_result": "2026 Nature用deep learning分析四十年human migration，將長期patterns與快速shocks放入統一predictive setting。",
+  "open_gap": "data reconstruction uncertainty、shock exogeneity、zero flows、country boundary changes與forecast horizon。",
+  "first_task": "用公開aggregate migration panel的小子集做time-blocked baseline，對比gravity model與simple neural model；shock years完全hold out。",
+  "evaluator": "MAE/log score、flow calibration、shock-year error、country-pair transfer。",
+  "validation_limits": "prediction pattern不等於migration原因；不把模型作個人移民建議。",
+  "completion_criterion": "在未見years/country pairs，尤其shock periods，穩定改善baseline並量化failure regimes。",
+  "screening_note": "2026-09-28 初始有界文獻篩查。社會科學結果高度依賴population、platform、time period與identification assumptions；每輪需重查版本與反證。",
+  "screening_queries": [
+    "deep learning four decades human migration 2026"
+  ],
+  "sources": [
+    {
+      "title": "Deep learning four decades of human migration",
+      "url": "https://www.nature.com/articles/s41586-026-10611-7",
+      "kind": "primary",
+      "supports": "長期migration patterns與shock-responsive modelling"
+    }
+  ]
+}
