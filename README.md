@@ -17,4 +17,4 @@
 | SOC-009 | Collective consensus formation 與 network topology | B |
 | SOC-010 | Platform intervention spillovers 與cross-platform transport | B |
 
-每輪依治理 f40beb161b6c87201d8082ecbc29c7e0b3eaa402 fresh search。這個repo研究社会現象與研究方法，不替政黨、候選人、政策或政治選擇背書/排名。平台、遷移與資訊問題需明列population、time period、platform rules與identification assumptions。
+每輪依治理 9c3ae2dbaa1c814f3ef451c041dedfe3b77d926f fresh search。這個repo研究社会現象與研究方法，不替政黨、候選人、政策或政治選擇背書/排名。平台、遷移與資訊問題需明列population、time period、platform rules與identification assumptions。
